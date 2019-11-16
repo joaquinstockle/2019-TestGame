@@ -2,22 +2,35 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class PlayerShoot : MonoBehaviour
 {
+    public float pew = 5f;
+    public float range = 20f;
     public Camera cam;
-
-    private void Update()
+    void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetButtonDown("Fire1"))
         {
-            Ray ray = cam.ScreenPointToRay(Input.mousePosition);
-            RaycastHit hit;
-
-            if (Physics.Raycast(ray, out hit))
+             Shoot();
+        }
+           
+    }
+    void Shoot ()
+    {
+        RaycastHit hit;
+        if (Physics.Raycast(cam.transform.position, cam.transform.forward, out hit, range))
+        {
+            EnemyHealth target = hit.transform.GetComponent<EnemyHealth>();
+            if (target != null)
             {
-                
+                target.EnemyHit(pew);
             }
         }
     }
+
 }
+    
+
+    
