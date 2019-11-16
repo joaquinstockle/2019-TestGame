@@ -9,9 +9,10 @@ public class CharacterMove : MonoBehaviour
 
     public float speed = 10f, jumpSpeed = 10f;
 
-    public float gravity = -5f;
+    public float gravity = -1f;
 
     private Vector3 velocity;
+    
 
 
     private void Update()
