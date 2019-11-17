@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\Joaquin\.Rider2019.2\system\extResources" t="IncludeRecursive" />
@@ -23,13 +23,18 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
-          <e p="CharacterMove.cs" t="Include" />
-          <e p="EnemyHealth.cs" t="Include" />
-          <e p="EnemyMove.cs" t="Include" />
+          <e p="Enemies" t="Include">
+            <e p="EnemyHealth.cs" t="Include" />
+            <e p="EnemyMove.cs" t="Include" />
+          </e>
           <e p="FloatData.cs" t="Include" />
-          <e p="MouseControl.cs" t="Include" />
-          <e p="PlayerHealth.cs" t="Include" />
-          <e p="PlayerShoot.cs" t="Include" />
+          <e p="Player" t="Include">
+            <e p="CharacterMove.cs" t="Include" />
+            <e p="MouseControl.cs" t="Include" />
+            <e p="PlayerHealth.cs" t="Include" />
+            <e p="PlayerShoot.cs" t="Include" />
+          </e>
+          <e p="TriggerEventBehaviour.cs" t="Include" />
         </e>
       </e>
       <e p="Fall 2019 Game.sln" t="IncludeFlat" />

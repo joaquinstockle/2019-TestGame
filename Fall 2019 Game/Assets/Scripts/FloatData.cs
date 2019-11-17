@@ -6,11 +6,16 @@ using UnityEngine;
 public class FloatData : ScriptableObject
 {
     public float value = 1f;
-    public float maxValue = 1f;
+    public float maxValue = 20f;
+
+    void Awake()
+    {
+        value = maxValue;
+    }
 
     public void UpdateValue(float amount)
     {
-        value += amount;
+        value += amount * Time.deltaTime;
     }
 
     public void ChangeValue(float amount)
