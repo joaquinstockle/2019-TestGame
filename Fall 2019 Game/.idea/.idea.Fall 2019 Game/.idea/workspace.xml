@@ -13,10 +13,15 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DC10DD4A-D9F3-4AA9-8E69-1E49A48C7111/91/f90fd582/Input.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TriggerEventBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D0E086B1-48D0-4D9D-9DEB-694E24FF0FCE/e1/0933ad17/CharacterController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../2670fall2019-2/New Unity Project 2/Assets/Scripts/ImageController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../uvu-scripting-gaming-animation/dgm 1610 game jasa/Assets/scripts/HealthPickup.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../uvu-scripting-gaming-animation/dgm 1610 game jasa/Assets/scripts/DamageManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../2670fall2019-2/New Unity Project 2/Assets/Scripts/TriggerEventBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FloatData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/AmountChange.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TriggerEventBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -32,6 +37,8 @@
         <option value="$PROJECT_DIR$/../../2670fall2019-2/New Unity Project 2/Assets/Scripts/TriggerEventBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEventBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FloatData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/AmountChange.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" />
       </list>
     </option>
   </component>
@@ -82,7 +89,7 @@
       <option name="presentableId" value="Default" />
       <updated>1573785301013</updated>
       <workItem from="1573785303154" duration="40606000" />
-      <workItem from="1573951251178" duration="3122000" />
+      <workItem from="1573951251178" duration="11502000" />
     </task>
     <servers />
   </component>

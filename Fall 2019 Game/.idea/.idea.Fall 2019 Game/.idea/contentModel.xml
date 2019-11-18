@@ -29,6 +29,7 @@
           </e>
           <e p="FloatData.cs" t="Include" />
           <e p="Player" t="Include">
+            <e p="AmountChange.cs" t="Include" />
             <e p="CharacterMove.cs" t="Include" />
             <e p="MouseControl.cs" t="Include" />
             <e p="PlayerHealth.cs" t="Include" />
