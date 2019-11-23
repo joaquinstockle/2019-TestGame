@@ -13,6 +13,8 @@ public class PlayerHealth : MonoBehaviour
 
     public bool Dead = false;
 
+    public SpawnPlayerCha DeathScreen;
+
     
 
 
@@ -45,7 +47,7 @@ public class PlayerHealth : MonoBehaviour
 
         if (Dead)
         {
-
+            DeathScreen.Respawn();
         }
     }
 }

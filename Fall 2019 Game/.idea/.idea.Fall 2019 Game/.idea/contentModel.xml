@@ -24,16 +24,17 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="Enemies" t="Include">
+            <e p="EnemyDamage.cs" t="Include" />
             <e p="EnemyHealth.cs" t="Include" />
             <e p="EnemyMove.cs" t="Include" />
           </e>
           <e p="FloatData.cs" t="Include" />
           <e p="Player" t="Include">
-            <e p="AmountChange.cs" t="Include" />
             <e p="CharacterMove.cs" t="Include" />
             <e p="MouseControl.cs" t="Include" />
             <e p="PlayerHealth.cs" t="Include" />
             <e p="PlayerShoot.cs" t="Include" />
+            <e p="SpawnPlayerCha.cs" t="Include" />
           </e>
           <e p="TriggerEventBehaviour.cs" t="Include" />
         </e>
