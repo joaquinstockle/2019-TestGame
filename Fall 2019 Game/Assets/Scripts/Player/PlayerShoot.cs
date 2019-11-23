@@ -11,7 +11,7 @@ public class PlayerShoot : MonoBehaviour
     public Camera cam;
     void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetButtonDown("Fire1") && Time.timeScale > .5f)
         {
              Shoot();
         }
