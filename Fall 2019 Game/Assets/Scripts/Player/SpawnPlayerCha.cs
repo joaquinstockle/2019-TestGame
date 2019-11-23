@@ -21,7 +21,6 @@ public class SpawnPlayerCha : MonoBehaviour
 
     public void DeathScreenCo()
     {
-        Time.timeScale = 0f;
         ScreenDeath.SetActive(true);
         Cursor.lockState = CursorLockMode.None;
 
