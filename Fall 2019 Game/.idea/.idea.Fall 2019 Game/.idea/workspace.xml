@@ -12,7 +12,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ButtonControl.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ButtonControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DC10DD4A-D9F3-4AA9-8E69-1E49A48C7111/91/f90fd582/Input.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/SpawnPlayerCha.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D0E086B1-48D0-4D9D-9DEB-694E24FF0FCE/e1/0933ad17/CharacterController.cs" root0="SKIP_HIGHLIGHTING" />
@@ -21,9 +21,16 @@
     <setting file="file://$PROJECT_DIR$/../../uvu-scripting-gaming-animation/dgm 1610 game jasa/Assets/scripts/DamageManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../2670fall2019-2/New Unity Project 2/Assets/Scripts/TriggerEventBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FloatData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Values/Points.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../uvu-scripting-gaming-animation/dgm 1610 game jasa/Assets/scripts/ScoreManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyHealth.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Values/PlayerHealth.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../uvu-scripting-gaming-animation/dgm 1610 game jasa/Assets/scripts/Menu.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../uvu-scripting-gaming-animation/dgm 1610 game jasa/Assets/scripts/EnemyPatrol.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TriggerEventBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerShoot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/MouseControl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyDamage.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -40,9 +47,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEventBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FloatData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/AmountChange.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Spawn.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ButtonControl.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/SpawnPlayerCha.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Values/Points.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerShoot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyHealth.cs" />
       </list>
     </option>
   </component>
@@ -95,7 +106,7 @@
       <workItem from="1573785303154" duration="40606000" />
       <workItem from="1573951251178" duration="12126000" />
       <workItem from="1574459686732" duration="11000" />
-      <workItem from="1574459719809" duration="4862000" />
+      <workItem from="1574459719809" duration="17814000" />
     </task>
     <servers />
   </component>
@@ -121,10 +132,12 @@
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="361" y="70" key="#Notifications" />
+    <state x="361" y="70" key="#Notifications/1920.1080" />
     <state x="883" y="139" key="RiderGenerateDialog" />
     <state x="883" y="139" key="RiderGenerateDialog/1920.1080" />
-    <state x="431" y="145" key="search.everywhere.popup" />
-    <state x="431" y="145" key="search.everywhere.popup/1920.1080" />
+    <state x="717" y="335" width="672" height="678" key="search.everywhere.popup" />
+    <state x="717" y="335" width="672" height="678" key="search.everywhere.popup/1920.1080" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

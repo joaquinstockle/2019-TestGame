@@ -7,9 +7,12 @@ using UnityEngine;
 public class EnemyDamage : MonoBehaviour
 {
     public float Amount;
-
+    
     public void OnTriggerStay(Collider other)
     {
-        PlayerHealth.Addpoints(Amount);
+        if (other.gameObject.CompareTag("Player"))
+        {
+            PlayerHealth.Addpoints(Amount);
+        }
     }
 }
