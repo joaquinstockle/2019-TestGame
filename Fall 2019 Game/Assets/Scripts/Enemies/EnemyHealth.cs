@@ -31,7 +31,7 @@ public class EnemyHealth : MonoBehaviour
 
     public void EnemyStruck(float amount)
     {
-        //health -= amount;
+        health -= amount;
         
         push = transform.position - cam.transform.position;
         Enemy.AddForce(push * 5,ForceMode.VelocityChange);
@@ -41,11 +41,6 @@ public class EnemyHealth : MonoBehaviour
         {
             Death();
         }
-    }
-
-    public void knockBack()
-    {
-        
     }
 
     public void Death()

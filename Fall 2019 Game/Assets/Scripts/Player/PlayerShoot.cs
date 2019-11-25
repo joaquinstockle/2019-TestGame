@@ -13,8 +13,6 @@ public class PlayerShoot : MonoBehaviour
     public float range = 20f;
     public float mRange = 1f;
     public Camera cam;
-    public Vector3 Char;
-    public Vector3 push;
     void Update()
     {
         if (Input.GetButtonDown("Fire1") && Time.timeScale > .5f)
@@ -26,9 +24,6 @@ public class PlayerShoot : MonoBehaviour
         {
             Punch();
         }
-
-        
-           
     }
     void Shoot ()
     {
@@ -52,8 +47,6 @@ public class PlayerShoot : MonoBehaviour
             if (target != null)
             {
                 target.EnemyStruck(pow);
-                
-               
             }
         }
     }
