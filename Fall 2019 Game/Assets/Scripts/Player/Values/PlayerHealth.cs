@@ -15,7 +15,8 @@ public class PlayerHealth : MonoBehaviour
 
     public SpawnPlayerCha DeathScreen;
 
-    
+    public GameObject pauseScreen;
+
 
 
 
@@ -47,12 +48,10 @@ public class PlayerHealth : MonoBehaviour
 
         if (Dead)
         {
+            pauseScreen.SetActive(false);
             DeathScreen.Respawn();
             Time.timeScale = 0f;
         }
-        else
-        {
-            Time.timeScale = 1f;
-        }
+      
     }
 }

@@ -1,7 +1,6 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using System.Collections; 
+using System.Collections.Generic; 
+using UnityEngine; 
 using UnityEngine.UI;
 
 
@@ -55,14 +54,14 @@ public class CharacterMove : MonoBehaviour
         characterController.Move(velocity);
 
         if (characterController.isGrounded)
-        { 
+        {
             velocity.y = 0f;
-            
+
             if (Input.GetButton("Jump"))
             {
                 velocity.y = jumpSpeed * Time.deltaTime;
             }
-            
+
         }
 
         staminaBar.fillAmount = stamina;
@@ -72,12 +71,12 @@ public class CharacterMove : MonoBehaviour
             stamRes = .3f;
         if (fatigue)
             stamRes = .15f;
-        
+
         if (stamina < 0)
             stamina = 0;
         if (stamina > 1)
             stamina = 1;
-        
+
         if (stamina <= 0)
             fatigue = true;
         if (stamina >= 1)
@@ -88,10 +87,10 @@ public class CharacterMove : MonoBehaviour
 
         if (stamina < 1)
             full = false;
-        
+
         if (full)
             fullBar.SetActive(false);
-            
+
 
 
     }

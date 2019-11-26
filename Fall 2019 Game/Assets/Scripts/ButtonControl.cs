@@ -14,7 +14,7 @@ public class ButtonControl : MonoBehaviour
 
     public void LoadMenu()
     {
-        
+        SceneManager.LoadScene("Menu");
     }
     
     public void QuitGame()

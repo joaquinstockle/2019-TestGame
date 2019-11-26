@@ -7,21 +7,22 @@ using Vector3 = UnityEngine.Vector3;
 
 public class EnemyHealth : MonoBehaviour
 {
+
+
     public float health = 20f;
 
     public int PointToAdd;
 
-    public Camera cam;
-
     public Vector3 push;
 
     public Rigidbody Enemy;
+    
 
     public void EnemyHit(float amount)
     {
         health -= amount;
         
-        push = transform.position - cam.transform.position;
+        push = transform.position - Camera.main.transform.position;
         Enemy.AddForce(push * .5f,ForceMode.VelocityChange);
         if (health <= 0f)
         {
@@ -33,7 +34,7 @@ public class EnemyHealth : MonoBehaviour
     {
         health -= amount;
         
-        push = transform.position - cam.transform.position;
+        push = transform.position - Camera.main.transform.position;
         Enemy.AddForce(push * 5,ForceMode.VelocityChange);
 
 
@@ -45,7 +46,8 @@ public class EnemyHealth : MonoBehaviour
 
     public void Death()
     {
-        Destroy(gameObject);
+        this.gameObject.SetActive(false);
+        Destroy(this.gameObject);
         Points.Addpoints (PointToAdd);
     }
 }
