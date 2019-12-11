@@ -23,7 +23,7 @@ public class EnemyHealth : MonoBehaviour
         health -= amount;
         
         push = transform.position - Camera.main.transform.position;
-        Enemy.AddForce(push * .5f,ForceMode.VelocityChange);
+        Enemy.AddForce(push * .01f,ForceMode.VelocityChange);
         if (health <= 0f)
         {
             Death();

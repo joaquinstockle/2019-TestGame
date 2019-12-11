@@ -60,9 +60,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ButtonControl.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Freeze/Pause.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Values/PlayerHealth.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Character/CharacterMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DS.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyHealth.cs" />
       </list>
     </option>
   </component>
@@ -118,6 +118,7 @@
       <workItem from="1574459719809" duration="42828000" />
       <workItem from="1574731575462" duration="30000" />
       <workItem from="1574731741328" duration="1596000" />
+      <workItem from="1576082103703" duration="339000" />
     </task>
     <servers />
   </component>
